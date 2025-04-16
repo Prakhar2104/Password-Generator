@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #3b3b98, #6c5ce7);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  width: 370px;
+  max-width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #dcdcdc;
+  margin-bottom: 25px;
+}
+
+.result-container {
+  position: relative;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 12px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 20px;
+  min-height: 50px;
+}
+
+#result {
+  word-break: break-word;
+  text-align: left;
+  flex: 1;
+  overflow-wrap: anywhere;
+  color: #fff;
+}
+
+.icon-btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.settings {
+  margin-bottom: 20px;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  font-size: 15px;
+}
+
+.setting input[type='checkbox'],
+.setting input[type='number'] {
+  transform: scale(1.1);
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.generate-btn {
+  background-color: #6c5ce7;
+  color: white;
+  width: 100%;
+}
+
+.generate-btn:hover {
+  background-color: #4e4ec4;
+}
